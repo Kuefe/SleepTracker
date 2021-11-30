@@ -73,6 +73,8 @@ dependencies {
     // Kotlin Extensions and Coroutines support for Room
     implementation "androidx.room:room-ktx:$version_room"
 
+    // Timber
+    implementation "com.jakewharton.timber:timber:$timber_Version"
 
     // Testing
     testImplementation 'junit:junit:4.13.2'
